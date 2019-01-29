@@ -1,7 +1,3 @@
-number = input("Enter a number and I will tell you if it is Even or Odd: \n")
-number = int(number)
+car = input("What car model would you prefer?\n")
 
-if (number % 2 == 0):
-	print("\nThe number " + str(number)+ " is even.")
-else:
-	print('\nThe number ' + str(number) + ' is Odd.')
+print("Let me see if I can find you a " + car)
